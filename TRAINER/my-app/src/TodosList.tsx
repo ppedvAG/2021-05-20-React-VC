@@ -8,6 +8,7 @@ Wenn ein Todo completed ist, dann ist es in der Liste durchgestrichen.
 Die Linie (line-through) wird durch eine CSS-Klasse hinzugewiesen.
 */
 
+import Rating from './Rating';
 import './TodosList.css';
 
 function TodosList() {
@@ -17,25 +18,30 @@ function TodosList() {
             userId: 1,
             id: 1,
             title: "delectus aut autem",
-            completed: false
+            completed: false,
+            rating: 3
+
         },
         {
             userId: 1,
             id: 2,
             title: "quis ut nam facilis et officia qui",
-            completed: false
+            completed: false,
+            rating: 4
         },
         {
             userId: 1,
             id: 3,
             title: "fugiat veniam minus",
-            completed: false
+            completed: false,
+            rating: 5
         },
         {
             userId: 1,
             id: 4,
             title: "et porro tempora",
-            completed: true
+            completed: true,
+            rating: 3
         }
     ]
 
@@ -58,6 +64,15 @@ function TodosList() {
                     <li key={todo.id} className={todo.completed ? 'durchgestrichen' : ''}>{todo.title}</li>
                 ))}
             </ul>
+
+
+            {/* Ergänzung mit Rating im M004 */}
+            <ul>
+                {todos.map(todo => (
+                    <li key={todo.id} className={todo.completed ? 'durchgestrichen' : ''}>{todo.title}, dringend: <Rating starsNumber={todo.rating}/></li>
+                ))}
+            </ul>
+
         </>
     )
 }

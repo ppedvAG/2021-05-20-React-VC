@@ -1,4 +1,5 @@
-/* LAB 4
+/* 
+LAB 4
 
 Teil 1
 Erstellen Sie eine Komponente Rating. Diese rendert Sterne 4: '*'. ('*'.repeat(4))
@@ -10,3 +11,9 @@ Todos bekommen Eigenschaft Rating, wo mit einem Number definiert ist, wie wichti
 Diese Number wird für die neu erstellte Komponente Rating genutzt.
 
 */
+
+export default function Rating(props: { starsNumber: number; }) {
+    return(
+        <span>{'*'.repeat(props.starsNumber)}</span>
+    )
+}

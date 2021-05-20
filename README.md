@@ -41,29 +41,20 @@ Format: Vollzeit
 - [ ] Demo [emmet.html](TRAINER\emmet.html)
 - [ ] Lab: [TodosList.tsx](TRAINER\my-app\src\TodosList.tsx)
 
-## M004 | PROPS.CHILDREN, REACT.CHILDREN
+## M004 | PROPS, PROPS.CHILDREN, REACT.CHILDREN
 
 - [ ] Slides: REACT.pdf > ELEMENTS > CHILDREN
 - [ ] Demo:
-- [ ] 
+  - [ ] [ChildrenComponent.tsx](TRAINER\my-app\src\ChildrenComponent.tsx)
+  - [ ] [Props.tsx](TRAINER\my-app\src\Props.tsx)
+- [ ] Lab [Rating.tsx](TRAINER\my-app\src\Rating.tsx)
 
 ## M005 | FUNCTION COMPONENTS AND PROPS
 
 - [ ] Slides: REACT.pdf
-- [ ] react > components > function components & props
-- [ ] props
-- [ ] props.children
-- [ ] components as props
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module30`
-- [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version30`
+- [ ] components as props (ein Beispiel)
 
-## MXX | JSX CONTINUED
-
-- [ ] Slides: attributes, conditionals, iterating
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module40`
-- [ ] TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version40`
-
-## MXX | COMPONENTS AND STATE
+## M006 | COMPONENTS AND STATE
 
 - [ ] class components
 - [ ] constructor
