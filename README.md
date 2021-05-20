@@ -1,4 +1,4 @@
-# KURS NAME
+# REACT
 
 Ein Kurs von PPEDV :rocket:
 
@@ -8,18 +8,16 @@ Ort: VC
 
 Format: Vollzeit
 
-[Agenda von diesem Kurs auf ppedv.de](https://ppedv.de/schulung/kurse/ReactJsReduxJavaScriptJSXGrundlagenSeminarTrainingWorkshop.aspx)
+[Agenda vom Kurs auf ppedv.de](https://ppedv.de/schulung/kurse/ReactJsReduxJavaScriptJSXGrundlagenSeminarTrainingWorkshop.aspx)
 
 ## M000 | WARMING UP
 
 - [ ] Slides:
   - [ ] GREETER.pdf
-- [ ] Kursablauf, Übersicht von Modulen präsentieren
-- [ ] Slides:
   - [ ] VSCode.pdf > INTRO
-- [ ] Slides:
   - [ ] GIT.pdf > INTRO
   - [ ] GITHUB.pdf > INTRO
+- [ ] Kursablauf, Übersicht von Modulen präsentieren
 - [ ] Lab: Repo clonen, Repo Struktur kennen lernen
 
 ## M001 | GETTING STARTED
@@ -29,38 +27,30 @@ Format: Vollzeit
 - [ ] react elements
 - [x] Demo: React über CDN - [helloreact.html](TRAINER\m001-intro.html)
 
-## MXXX (002) | CREATE-REACT-APP & REACT PROJECT
+## M002 | CREATE-REACT-APP & REACT PROJECT
 
 - [ ] Slides
-  - [ ] *intern* [REACT.md > CREATE-REACT-APP & REACT PROJECT](https://github.com/ppedvAG/PPKURS-react/blob/main/SLIDES/REACT.md#create-react-app--react-project)
   - [ ] REACT.pdf > CREATE-REACT-APP & REACT PROJECT
-  - [ ] *intern* [NODEJS.pdf > NODE > INTRO](https://github.com/ppedvAG/PPKURS-web-vadzim/blob/main/SLIDES/NODEJS.pdf)
   - [ ] NODEJS.pdf > NODE > INTRO
-  - [ ] *intern* [NODEJS.pdf > NPM > INTRO](https://github.com/ppedvAG/PPKURS-web-vadzim/blob/main/SLIDES/NODEJS.pdf)
   - [ ] NODEJS.pdf > NPM > INTRO
+  - [ ] Lab 1
 
-### THEORY APP
+## M003 | JSX / TSX
 
-In index.js comment in the line 4 `import App from './App';` and comment out the line 6 `import App from './module10/App';`
+- [ ] Slides: REACT.pdf > JSX / TSX
+- [ ] Demo [emmet.html](TRAINER\emmet.html)
+- [ ] Lab: [TodosList.tsx](TRAINER\my-app\src\TodosList.tsx)
 
-### TODO APP
+## M004 | PROPS.CHILDREN, REACT.CHILDREN
 
-Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version10`
+- [ ] Slides: REACT.pdf > ELEMENTS > CHILDREN
+- [ ] Demo:
+- [ ] 
 
-Slides für das genannte Modul.
+## M005 | FUNCTION COMPONENTS AND PROPS
 
-Schließe dieses Issue mit einem Link zu den angelegten Slides.
-
-## MXX | JSX INTRO
-
-- [ ] Slides: jsx/tsx intro
-- [ ] : emmet
-- [ ] Demo THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module20`
-- [ ] Lab: TODO APP Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version20`
-
-## MXX | FUNCTION COMPONENTS AND PROPS
-
-- [ ] Slides: react > components > function components & props
+- [ ] Slides: REACT.pdf
+- [ ] react > components > function components & props
 - [ ] props
 - [ ] props.children
 - [ ] components as props
