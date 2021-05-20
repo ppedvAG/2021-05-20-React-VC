@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import DateComponent from './DateComponent';
 
 
 function App() {
@@ -14,8 +15,12 @@ function App() {
           rel="noopener noreferrer"
         >
           React Homepage
-        </a>       
+        </a>
+
       </header>
+      <p>
+        <DateComponent />
+      </p>
     </div>
   );
 }
