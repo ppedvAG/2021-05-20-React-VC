@@ -1,6 +1,7 @@
 import React, { ReactElement } from 'react';
 import './App.css';
 import ElementChildren, { ReactChildrenComponent } from './ChildrenComponent';
+import ClassComponent from './ClassComponent';
 import DateComponent from './DateComponent';
 import PropsComponente from './Props';
 import TodosList from './TodosList';
@@ -45,6 +46,9 @@ function App() {
     <h2>Props Objekt</h2>
     <PropsComponente zahl={4} />
     <PropsComponente/>
+
+    <h2>Class Component & Props</h2>
+    <ClassComponent testEigenschaft="testWert"/>
 
 
 
