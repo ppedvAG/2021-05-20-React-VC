@@ -49,20 +49,20 @@ Format: Vollzeit
   - [ ] [Props.tsx](TRAINER\my-app\src\Props.tsx)
 - [ ] Lab [Rating.tsx](TRAINER\my-app\src\Rating.tsx)
 
-## M005 | FUNCTION COMPONENTS AND PROPS
-
-- [ ] Slides: REACT.pdf
-- [ ] components as props (ein Beispiel)
-
-## M006 | COMPONENTS AND STATE
+## M005 | COMPONENTS AND STATE
 
 - [ ] class components
 - [ ] constructor
 - [ ] state
 - [ ] use state hook
 - [ ] components in state
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module50`
-- [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version50`
+- [ ] Demo:
+- [ ] Lab:
+
+## M005 | FUNCTION COMPONENTS AND PROPS
+
+- [ ] Slides: REACT.pdf
+- [ ] components as props (ein Beispiel)
 
 ## MXX | REACT & FORMS
 

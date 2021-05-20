@@ -12,8 +12,8 @@ Diese Number wird für die neu erstellte Komponente Rating genutzt.
 
 */
 
-export default function Rating(props: { starsNumber: number; }) {
+export default function Rating(propsObjekt: { starsNumber: number; }) {
     return(
-        <span>{'*'.repeat(props.starsNumber)}</span>
+        <span>{'*'.repeat(propsObjekt.starsNumber)}</span>
     )
 }
