@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import DateComponent from './DateComponent';
+import TodosList from './TodosList';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       <p>
         <DateComponent />
       </p>
+      <h2>Aufgaben für heute:</h2>
+      <TodosList />
     </div>
   );
 }

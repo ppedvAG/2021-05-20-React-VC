@@ -26,6 +26,7 @@ Format: Vollzeit
 
 - [x] Slides
   - [x] REACT.pdf > INTRO
+- [ ] react elements
 - [x] Demo: React über CDN - [helloreact.html](TRAINER\m001-intro.html)
 
 ## MXXX (002) | CREATE-REACT-APP & REACT PROJECT
@@ -56,10 +57,6 @@ Schließe dieses Issue mit einem Link zu den angelegten Slides.
 - [ ] : emmet
 - [ ] Demo THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module20`
 - [ ] Lab: TODO APP Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version20`
-
-## MXX | REACT ELEMENTS
-
-- [ ] elements
 
 ## MXX | FUNCTION COMPONENTS AND PROPS
 
