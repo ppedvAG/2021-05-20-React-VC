@@ -3,7 +3,7 @@ LAB 2
 legen Sie eine Komponente DateComponent an. Diese gibt das aktuelle Datum aus.
 Benutzen Sie diese Komponente innerhabl von der App-Komponente. */
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 function DateComponent() {
     let myDate = new Date()
@@ -44,26 +44,47 @@ Wie muss die Komponente DateComponent umgebaut werden, damit alles React-conform
 //         )
 //     }
 // }
+// export class DateComponentClass extends React.Component<{}, { uhrzeit: string, intervalID: NodeJS.Timeout }> {
 export class DateComponentClass extends React.Component<{}, { uhrzeit: string }> {
-
+    intervalID: any;
     constructor(props: any) {
         super(props);
         this.state = {
-            uhrzeit: new Date().toLocaleTimeString()
+            uhrzeit: new Date().toLocaleTimeString(),            
         }
     }
     tick = () => {
-        setInterval(() => {
-            this.setState({ uhrzeit: new Date().toLocaleTimeString() });
-            console.log('this.state.uhrzeit :>> ', this.state.uhrzeit);
-        }, 1000)
-    }
+        this.intervalID = setInterval(() => {
+                this.setState({ uhrzeit: new Date().toLocaleTimeString() });
+                console.log('this.state.uhrzeit :>> ', this.state.uhrzeit);
+            }, 1000)
+        }    
     componentDidMount() {
         this.tick();
+        console.log('komponente mounted');
+    }
+    componentWillUnmount() {
+        clearInterval(this.intervalID);
+        console.log('interval cleared');
     }
     render() {
+        /* console.log('this.state.intervalID :>> ', this.state.intervalID); */
         return (
-                <span>aktuelle Uhrzeit: {this.state.uhrzeit}</span>
+            <span>aktuelle Uhrzeit: {this.state.uhrzeit} </span>
         )
     }
 }
+
+export function DateComponentFunction() {
+
+    let [uhrzeit, ändereUhrzeit] = useState(new Date().toLocaleTimeString())
+
+    useEffect(() => {
+        setInterval(() => {
+            ändereUhrzeit(new Date().toLocaleTimeString());
+            console.log('uhrzeit :>> ', uhrzeit);
+        }, 1000)
+    })
+    return (<span>aktuelle Uhrzeit: {uhrzeit} </span>)
+}
+

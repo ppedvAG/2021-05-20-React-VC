@@ -72,8 +72,7 @@ Format: Vollzeit
 
 - [ ] lifecycle methods
 - [ ] use effect hook
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel kompletten Inhalt von `module60/indexT6.js` mit Strg A, Strg C und fügen Sie den kopierten Code in `index.js` mit Strg A, Strg V ein
-- [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version60`
+
 
 ## MXX | LIFTING STATE UP
 

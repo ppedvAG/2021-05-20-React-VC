@@ -2,7 +2,9 @@ import React, { ReactElement } from 'react';
 import './App.css';
 import ElementChildren, { ReactChildrenComponent } from './ChildrenComponent';
 import ClassComponent from './ClassComponent';
-import DateComponent, { DateComponentClass } from './DateComponent';
+import DateComponent, { DateComponentClass, DateComponentFunction } from './DateComponent';
+import InputComponent from './InputComponent';
+// import DateComponent, { DateComponentFunction } from './DateComponent';
 import PropsComponente from './Props';
 import TodosList from './TodosList';
 
@@ -51,7 +53,13 @@ function App() {
     <ClassComponent testEigenschaft="testWert"/>
 
     <h2>Lab: Uhrzeit und Class Component</h2>
-    <DateComponentClass />
+    {/* <DateComponentClass /> */}
+
+    <h2>Uhrzeit und Hooks</h2>
+    {/* <DateComponentFunction /> */}
+
+    <h2>Input Komponente</h2>
+    <InputComponent />
 
 
 
