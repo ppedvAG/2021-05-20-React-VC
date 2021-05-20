@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App, {SimpleComponent}  from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>
+  <React.StrictMode>    
+    <App />    
+    <SimpleComponent />    
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -36,8 +34,8 @@ setTimeout(() => ReactDOM.unmountComponentAtNode(lifecycleDivNode as Element), 2
   </React.StrictMode>, document.getElementById('useEffectDiv')
 ) */
 
-let useEffectDiv = document.getElementById('useEffectDiv')
-setTimeout(() => ReactDOM.unmountComponentAtNode(useEffectDiv as Element), 2000) // Fehler wegen setState in der Komponente
+// let useEffectDiv = document.getElementById('useEffectDiv')
+// setTimeout(() => ReactDOM.unmountComponentAtNode(useEffectDiv as Element), 2000) // Fehler wegen setState in der Komponente
 
 
 // If you want to start measuring performance in your app, pass a function

@@ -21,3 +21,9 @@ function App() {
 }
 
 export default App;
+
+export function SimpleComponent() {
+  return (
+    <h2>H2 in Simple Component</h2>
+  )
+}
