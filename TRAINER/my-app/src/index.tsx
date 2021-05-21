@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App, {SimpleComponent}  from './App';
+import App, { SimpleComponent } from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>    
-    <App />    
-    <SimpleComponent />    
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    <SimpleComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );

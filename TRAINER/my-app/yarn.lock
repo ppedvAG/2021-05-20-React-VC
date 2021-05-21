@@ -1738,15 +1738,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*":
-  "integrity" "sha512-eeWwWjlqxvBxc4oQdkueW5OF/gtfSceKk4OnOAGlUSwS/liBRtZppbJuz1YkgbrbfGOoeBHun9fOvXnjNwrSOw=="
-  "resolved" "https://registry.npmjs.org/@types/jest/-/jest-26.0.22.tgz"
-  "version" "26.0.22"
-  dependencies:
-    "jest-diff" "^26.0.0"
-    "pretty-format" "^26.0.0"
-
-"@types/jest@^26.0.15":
+"@types/jest@*", "@types/jest@^26.0.15":
   "integrity" "sha512-eeWwWjlqxvBxc4oQdkueW5OF/gtfSceKk4OnOAGlUSwS/liBRtZppbJuz1YkgbrbfGOoeBHun9fOvXnjNwrSOw=="
   "resolved" "https://registry.npmjs.org/@types/jest/-/jest-26.0.22.tgz"
   "version" "26.0.22"

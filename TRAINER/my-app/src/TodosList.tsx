@@ -60,6 +60,8 @@ function TodosList() {
 
     return (
         <>
+            <h2>JSX / TSX, Iteration, ClassName</h2>
+            <h2>Aufgaben für heute:</h2>
             <ul>{unsortedList.map(todo => todo)}</ul>
 
             {/* Variante 2: nur mit map */}
