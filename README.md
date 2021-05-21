@@ -59,14 +59,16 @@ Format: Vollzeit
 - [ ] Demo:
 - [ ] Lab:
 
+
+## M006 | REACT & FORMS
+
+- [ ] forms
+
 ## M005 | FUNCTION COMPONENTS AND PROPS
 
 - [ ] Slides: REACT.pdf
 - [ ] components as props (ein Beispiel)
 
-## MXX | REACT & FORMS
-
-- [ ] forms
 
 ## MXX | COMPONENTS LIFECYCLE
 

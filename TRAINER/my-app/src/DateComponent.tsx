@@ -50,15 +50,15 @@ export class DateComponentClass extends React.Component<{}, { uhrzeit: string }>
     constructor(props: any) {
         super(props);
         this.state = {
-            uhrzeit: new Date().toLocaleTimeString(),            
+            uhrzeit: new Date().toLocaleTimeString(),
         }
     }
     tick = () => {
         this.intervalID = setInterval(() => {
-                this.setState({ uhrzeit: new Date().toLocaleTimeString() });
-                console.log('this.state.uhrzeit :>> ', this.state.uhrzeit);
-            }, 1000)
-        }    
+            this.setState({ uhrzeit: new Date().toLocaleTimeString() });
+            console.log('this.state.uhrzeit :>> ', this.state.uhrzeit);
+        }, 1000)
+    }
     componentDidMount() {
         this.tick();
         console.log('komponente mounted');
@@ -76,15 +76,22 @@ export class DateComponentClass extends React.Component<{}, { uhrzeit: string }>
 }
 
 export function DateComponentFunction() {
+    let intervalID: any;
 
     let [uhrzeit, ändereUhrzeit] = useState(new Date().toLocaleTimeString())
 
     useEffect(() => {
-        setInterval(() => {
+        intervalID = setInterval(() => {
             ändereUhrzeit(new Date().toLocaleTimeString());
             console.log('uhrzeit :>> ', uhrzeit);
         }, 1000)
+        return (() => {
+            clearInterval(intervalID);
+            console.log('interval cleared');
+        })
     })
     return (<span>aktuelle Uhrzeit: {uhrzeit} </span>)
 }
+
+
 
