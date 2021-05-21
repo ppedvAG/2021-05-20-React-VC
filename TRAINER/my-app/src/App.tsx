@@ -58,13 +58,13 @@ function App() {
     {/* <DateComponentClass /> */}
 
     <h2>Uhrzeit und Hooks</h2>
-    <DateComponentFunction />
+{/*     <DateComponentFunction /> */}
 
     <h2>Input Komponente</h2>
     <InputComponent />
 
     <h2>Component in State</h2>
-    <ComponentInState />
+ {/*    <ComponentInState /> */}
 
     <h2>Fetching Daten, asynchron</h2>
     <TodosListClass />
