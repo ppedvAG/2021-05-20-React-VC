@@ -93,5 +93,22 @@ export function DateComponentFunction() {
     return (<span>aktuelle Uhrzeit: {uhrzeit} </span>)
 }
 
+export const DateComponentFunctionArrow = () => {
+    let intervalID: any;
+
+    let [uhrzeit, ändereUhrzeit] = useState(new Date().toLocaleTimeString())
+
+    useEffect(() => {
+        intervalID = setInterval(() => {
+            ändereUhrzeit(new Date().toLocaleTimeString());
+            console.log('uhrzeit :>> ', uhrzeit);
+        }, 1000)
+        return (() => {
+            clearInterval(intervalID);
+            console.log('interval cleared');
+        })
+    })
+    return (<span>aktuelle Uhrzeit: {uhrzeit} </span>)
+}
 
 

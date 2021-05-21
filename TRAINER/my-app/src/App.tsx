@@ -2,11 +2,13 @@ import React, { ReactElement } from 'react';
 import './App.css';
 import ElementChildren, { ReactChildrenComponent } from './ChildrenComponent';
 import ClassComponent from './ClassComponent';
+import ComponentInState from './ComponentInState';
 import DateComponent, { DateComponentClass, DateComponentFunction } from './DateComponent';
 import InputComponent from './InputComponent';
 // import DateComponent, { DateComponentFunction } from './DateComponent';
 import PropsComponente from './Props';
 import TodosList from './TodosList';
+import { TodosListClass } from './TodosListClass';
 
 
 function App() {
@@ -60,6 +62,12 @@ function App() {
 
     <h2>Input Komponente</h2>
     <InputComponent />
+
+    <h2>Component in State</h2>
+    <ComponentInState />
+
+    <h2>Fetching Daten, asynchron</h2>
+    <TodosListClass />
 
 
 

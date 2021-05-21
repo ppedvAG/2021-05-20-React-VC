@@ -45,6 +45,11 @@ function TodosList() {
         }
     ]
 
+    fetch('https://jsonplaceholder.typicode.com/todos')
+        .then(response => response.json())
+        .then(json => todos = json) // variable todos ist mit dem Array von oben befüllt wegen Asynchronität
+    /*  */
+
     // Variante 1: mit for-Schleife und map
 
     let unsortedList = [];
@@ -55,7 +60,6 @@ function TodosList() {
 
     return (
         <>
-
             <ul>{unsortedList.map(todo => todo)}</ul>
 
             {/* Variante 2: nur mit map */}
@@ -69,10 +73,9 @@ function TodosList() {
             {/* Ergänzung mit Rating im M004 */}
             <ul>
                 {todos.map(todo => (
-                    <li key={todo.id} className={todo.completed ? 'durchgestrichen' : ''}>{todo.title}, dringend: <Rating starsNumber={todo.rating}/></li>
+                    <li key={todo.id} className={todo.completed ? 'durchgestrichen' : ''}>{todo.title}, dringend: <Rating starsNumber={todo.rating} /></li>
                 ))}
             </ul>
-
         </>
     )
 }
