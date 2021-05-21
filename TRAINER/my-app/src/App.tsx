@@ -7,6 +7,7 @@ import DateComponent, { DateComponentClass, DateComponentFunction } from './Date
 import InputComponent from './InputComponent';
 // import DateComponent, { DateComponentFunction } from './DateComponent';
 import PropsComponente from './Props';
+import Redux from './Redux';
 import TodosList from './TodosList';
 import { TodosListClass } from './TodosListClass';
 
@@ -67,9 +68,10 @@ function App() {
  {/*    <ComponentInState /> */}
 
     <h2>Fetching Daten, asynchron</h2>
-    <TodosListClass />
+{/*     <TodosListClass /> */}
 
-
+    <h2>Redux</h2>
+    <Redux />
 
 
     </div>

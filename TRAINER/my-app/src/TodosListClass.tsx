@@ -28,7 +28,7 @@ export class TodosListClass extends React.Component<{}, { todos: TodoInterface[]
                 // console.log('todo in map :>> ', todo);
                 // debugger;
                 const { id, name, value } = (e as any).target;
-                // const fieldValue = { [name]: value }; todo
+                // const fieldValue = { [name]: value }; todo #1
                 // console.log('fieldValue :>> ', fieldValue); // 
                 if (todo.id === Number(id)) {
                    todo.title = value

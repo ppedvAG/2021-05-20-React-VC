@@ -59,59 +59,46 @@ Format: Vollzeit
 - [ ] Demo:
 - [ ] Lab:
 
-
 ## M006 | REACT & FORMS
 
 - [ ] forms
-
-## M005 | FUNCTION COMPONENTS AND PROPS
-
-- [ ] Slides: REACT.pdf
-- [ ] components as props (ein Beispiel)
-
 
 ## MXX | COMPONENTS LIFECYCLE
 
 - [ ] lifecycle methods
 - [ ] use effect hook
 
-
 ## MXX | LIFTING STATE UP
 
 - [x] lifting state up
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel den Anfangs-Inhalt von `index.js` aus `indexDefault.js`. Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module71`
-- [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version71`
+
+## M005 | FUNCTION COMPONENTS AND PROPS
+
+- [ ] Slides: REACT.pdf
+- [ ] components as props (ein Beispiel)
 
 ## MXX | COMPONENTS AS PROPS
 
 - [ ] Slides: components communication > components as props
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module72`
-- [ ] Lab: TODO APP, kein Beispiel
 
 ## MXX | PROPS.CHILDREN
 
 - [ ] Slides: components communication > props children
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `module73`
-- [ ] Lab: TODO APP, kein Beispiel
 
 ## MXX | SPECIALIZATION
 
 - [ ] Slides: components communication > specialization
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel die App-Komponente `AppWithClass` oder `AppWithFunctions` aus dem Ordner `module74`
-- [ ] Lab: TODO APP, kein Beispiel
 
-## MXX | COMPONENTS IN STATE 
+## MXX | COMPONENTS IN STATE
 
 - [ ] Slides: components communication > components in state
-- [ ] Demo: THEORY APP, kein Beispiel
-- [ ] Lab: TODO APP, Nehmen Sie für dieses Beispiel die App-Komponente aus dem Ordner `version75`
 
 ## MXX | REDUX
 
 - [ ] Slides: Redux.pdf > Intro
 - [ ] react-redux
-- [ ] Demo: THEORY APP, Nehmen Sie für dieses Beispiel kompletten Inhalt von `module80/indexT8.js` mit Strg A, Strg C und fügen Sie den kopierten Code in `index.js` mit Strg A, Strg V ein
-- [ ] Lab: TODO APP, Beispiel kommt
+
+## MXX | ROUTING
 
 <!-- 
 ## MXX | SSR
@@ -119,11 +106,4 @@ Format: Vollzeit
 - [ ] ssr vs csr
 - [ ] react & ssr
 
-CLOCK & LIFECYCLE HOOKS
-DateTime.js anlegen
-###Greeter.js
-
-REACT FORMS
-REACT ROUTER 
 -->
-
