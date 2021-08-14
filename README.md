@@ -77,7 +77,7 @@ Format: Vollzeit
 - [ ] Slides: REACT.pdf
 - [ ] components as props (ein Beispiel)
 
-## MXX | COMPONENTS AS PROPS
+## MXX | COMPONENTS IN PROPS
 
 - [ ] Slides: components communication > components as props
 
@@ -97,8 +97,11 @@ Format: Vollzeit
 
 - [ ] Slides: Redux.pdf > Intro
 - [ ] react-redux
+- [ ] todo<!--  // Problem -->
 
 ## MXX | ROUTING
+
+- [ ] Demo [app.tsc](TRAINER\my-app\src\App.tsx) im Zustand vom Commit [routing demo](https://github.com/ppedvAG/2021-05-20-React-VC/commit/ee97e4f01f0ae1e3b509a1e6c410b2a1d4a309fc)
 
 <!-- 
 ## MXX | SSR

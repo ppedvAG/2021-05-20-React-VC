@@ -7,9 +7,9 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     <SimpleComponent />
   </React.StrictMode>,
   document.getElementById('root')
@@ -28,6 +28,8 @@ ReactDOM.render(
 let lifecycleDivNode = document.getElementById('lifecycleDiv')
 setTimeout(() => ReactDOM.unmountComponentAtNode(lifecycleDivNode as Element), 2000) // Fehler wegen setState in der Komponente
  */
+
+/*  */
 
 
 

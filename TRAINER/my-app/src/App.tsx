@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { Provider } from 'react-redux';
 import { Link, Route, Switch } from 'react-router-dom';
 import './App.css';
 import ElementChildren, { ReactChildrenComponent } from './ChildrenComponent';
@@ -8,7 +9,7 @@ import DateComponent, { DateComponentClass, DateComponentFunction } from './Date
 import InputComponent from './InputComponent';
 // import DateComponent, { DateComponentFunction } from './DateComponent';
 import PropsComponente from './Props';
-import Redux from './Redux';
+import ReduxExampleComponent, { myStore } from './ReduxExample';
 import TodosList from './TodosList';
 import { TodosListClass } from './TodosListClass';
 
@@ -73,11 +74,11 @@ function App() {
       {/*    <ComponentInState /> */}
 
       <h2>Fetching Daten, asynchron</h2>
-      {/*     <TodosListClass /> */}
+      {/*     <TodosListClass /> */} 
 
-      <h2>Redux</h2>
-      <Redux />
-
+      <Provider store={myStore}>
+    <ReduxExampleComponent />
+  </Provider>
 
     </div>
 
