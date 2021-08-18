@@ -28,7 +28,7 @@ function App() {
       </header>
 
       <nav>
-        navigatin: <button><Link to="/datecomponent">DateComponent</Link></button>
+        navigation: <button><Link to="/datecomponent">DateComponent</Link></button>
         <button><Link to="/todolist">TodoList</Link></button>
       </nav>
 

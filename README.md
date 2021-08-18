@@ -2,14 +2,6 @@
 
 Ein Kurs von PPEDV :rocket:
 
-Datum: 20.05.2021
-
-Ort: VC
-
-Format: Vollzeit
-
-[Agenda vom Kurs auf ppedv.de](https://ppedv.de/schulung/kurse/ReactJsReduxJavaScriptJSXGrundlagenSeminarTrainingWorkshop.aspx)
-
 ## M000 | WARMING UP
 
 - [ ] Slides:
@@ -26,87 +18,93 @@ Format: Vollzeit
   - [x] REACT.pdf > INTRO
 - [ ] react elements
 - [x] Demo: React über CDN - [helloreact.html](TRAINER\m001-intro.html)
+- [ ] commit [m001 done](https://github.com/ppedvAG/2021-05-20-React-VC/commit/f378df2dd44a26b654432c1080ba6ea5a6031669)
 
 ## M002 | CREATE-REACT-APP & REACT PROJECT
 
 - [ ] Slides
-  - [ ] REACT.pdf > CREATE-REACT-APP & REACT PROJECT
+  - [ ] REACT.pdf > CREATE-REACT-APP
+  - [ ] REACT.pdf > REACT APP PROJECT
   - [ ] NODEJS.pdf > NODE > INTRO
   - [ ] NODEJS.pdf > NPM > INTRO
   - [ ] Lab 1
+  - [ ] commits
+    - [ ] [installed cra default](https://github.com/ppedvAG/2021-05-20-React-VC/commit/41de2c70e9270ea500cee120203200e9e1d8580e)
+    - [ ] [eigene Comp gebaut](https://github.com/ppedvAG/2021-05-20-React-VC/commit/64ec4bd87d6c1c090a3bd791ee48054a417079d3)
+    - [ ] [lab 2 datecomponent done](https://github.com/ppedvAG/2021-05-20-React-VC/commit/5613d5c7f431ac976d1927abe3f8388a5294d450)
 
 ## M003 | JSX / TSX
 
 - [ ] Slides: REACT.pdf > JSX / TSX
 - [ ] Demo [emmet.html](TRAINER\emmet.html)
 - [ ] Lab: [TodosList.tsx](TRAINER\my-app\src\TodosList.tsx)
+- [ ] commit [lab 3 tsx iterating and classname done](https://github.com/ppedvAG/2021-05-20-React-VC/commit/5613d5c7f431ac976d1927abe3f8388a5294d450)
 
 ## M004 | PROPS, PROPS.CHILDREN, REACT.CHILDREN
 
-- [ ] Slides: REACT.pdf > ELEMENTS > CHILDREN
+- [ ] Slides:
+  - [ ] REACT.pdf > ELEMENTS
+  - [ ] REACT.pdf > ELEMENTS > CHILDREN
+  - [ ] REACT.pdf > COMPONENTS
 - [ ] Demo:
   - [ ] [ChildrenComponent.tsx](TRAINER\my-app\src\ChildrenComponent.tsx)
   - [ ] [Props.tsx](TRAINER\my-app\src\Props.tsx)
 - [ ] Lab [Rating.tsx](TRAINER\my-app\src\Rating.tsx)
+- [ ] commits
+  - [ ] [m004 aufgabe](https://github.com/ppedvAG/2021-05-20-React-VC/commit/ecde80f40c20163f9bb1ba6f99e3662fe77e9fa1)
+  - [ ] [rating done](https://github.com/ppedvAG/2021-05-20-React-VC/commit/027ab2bfba6966c78998e011776f04b674c79ada)
 
 ## M005 | COMPONENTS AND STATE
 
-- [ ] class components
+- [ ] Slides:
+  - [ ] REACT.pdf > CLASS COMPONENTS
+  - [ ] REACT.pdf > COMPONENT STATE
 - [ ] constructor
 - [ ] state
 - [ ] use state hook
 - [ ] components in state
 - [ ] Demo:
 - [ ] Lab:
+- [ ] commits
+  - [ ] [classcomponent](https://github.com/ppedvAG/2021-05-20-React-VC/commit/85fd71a758f7d667d938c13b4d9f6b240d11c72b)
+  - [ ] [lab 5 done](https://github.com/ppedvAG/2021-05-20-React-VC/commit/8dd6632434bfc5599ea0382851374b0899f4efb6)
 
 ## M006 | REACT & FORMS
 
-- [ ] forms
+- [ ] Slides:
+  - [ ] REACT.pdf > EVENTS
+  - [ ] REACT.pdf > FORMS
+- [ ] commit - siehe m007
 
-## MXX | COMPONENTS LIFECYCLE
+## M007 | COMPONENTS LIFECYCLE
 
-- [ ] lifecycle methods
+- [ ] Slides:
+  - [ ] REACT.pdf > COMPONENT LIFECYCLE
+  - [ ] REACT.pdf > HOOKS
 - [ ] use effect hook
+- [ ] commits
+  - [ ] [m006 lab done](https://github.com/ppedvAG/2021-05-20-React-VC/commit/a1699e71ced1f02e3368d08426b18a1b8fc0e02f)
+  - [ ] [datecomponent hooks](https://github.com/ppedvAG/2021-05-20-React-VC/commit/9d00f7ef6774212c373d3efd99b0c8677a2323d8)
 
-## MXX | LIFTING STATE UP
+## M008 | FETCH
 
-- [x] lifting state up
+- [ ] commit [fetching von daten](https://github.com/ppedvAG/2021-05-20-React-VC/commit/374691d98bbe4194e8d0aeec0099286147343fd7)
 
-## M005 | FUNCTION COMPONENTS AND PROPS
+## M009 | LIFTING STATE UP
 
-- [ ] Slides: REACT.pdf
-- [ ] components as props (ein Beispiel)
+- [x] Slides: REACT.pdf > COMPOSED COMPONENTS
+- [ ] commit [lifting state up](https://github.com/ppedvAG/2021-05-20-React-VC/commit/e316a98501acf4b4ae12f98ef18142b176e1dd9a)
 
-## MXX | COMPONENTS IN PROPS
+## M010 | REDUX
 
-- [ ] Slides: components communication > components as props
-
-## MXX | PROPS.CHILDREN
-
-- [ ] Slides: components communication > props children
-
-## MXX | SPECIALIZATION
-
-- [ ] Slides: components communication > specialization
-
-## MXX | COMPONENTS IN STATE
-
-- [ ] Slides: components communication > components in state
-
-## MXX | REDUX
-
-- [ ] Slides: Redux.pdf > Intro
+- [ ] Slides:
+  - [ ] REACT.pdf > APP STATE
+  - [ ] REDUX.pdf > INTRO
 - [ ] react-redux
 - [ ] todo<!--  // Problem -->
+- [ ] commit [redux angefangen](https://github.com/ppedvAG/2021-05-20-React-VC/commit/8f0add2e561603d624e5100dab6f817f84d5c55d)
 
-## MXX | ROUTING
+## M011 | ROUTING
 
+- [ ] Slides: REACT.pdf > ROUTER
 - [ ] Demo [app.tsc](TRAINER\my-app\src\App.tsx) im Zustand vom Commit [routing demo](https://github.com/ppedvAG/2021-05-20-React-VC/commit/ee97e4f01f0ae1e3b509a1e6c410b2a1d4a309fc)
-
-<!-- 
-## MXX | SSR
-
-- [ ] ssr vs csr
-- [ ] react & ssr
-
--->
